@@ -1,0 +1,337 @@
+<!DOCTYPE html>  <html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Pookies Tours - Mandarmani Itinerary</title>  
+    <script src="https://cdn.tailwindcss.com"></script>  
+    <style>  
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');  body {  
+        font-family: 'Poppins', sans-serif;  
+        background-color: #f0f8ff;  
+        color: #333;  
+    }  
+      
+    .itinerary-card {  
+        position: relative;  
+        overflow: hidden;  
+        transition: transform 0.3s ease;  
+    }  
+      
+    .itinerary-card:hover {  
+        transform: translateY(-5px);  
+    }  
+      
+    .time-badge {  
+        font-weight: 600;  
+        background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);  
+    }  
+      
+    .refreshment-icon {  
+        background-color: #f59e0b;  
+    }  
+      
+    .meal-icon {  
+        background-color: #10b981;  
+    }  
+      
+    .activity-icon {  
+        background-color: #8b5cf6;  
+    }  
+      
+    .timeline::before {  
+        content: '';  
+        position: absolute;  
+        left: 16px;  
+        top: 0;  
+        bottom: 0;  
+        width: 4px;  
+        background: #e5e7eb;  
+    }  
+      
+    .animate-pulse-once {  
+        animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) 1;  
+    }  
+      
+    @keyframes pulse {  
+        0%, 100% { opacity: 1; }  
+        50% { opacity: 0.5; }  
+    }  
+</style>
+
+</head>  
+<body>  
+    <div class="min-h-screen py-12 px-4 sm:px-6 lg:px-8">  
+        <div class="max-w-4xl mx-auto">  
+            <!-- Header Section -->  
+            <div class="text-center mb-12 animate-pulse-once">  
+                <h1 class="text-4xl font-bold text-blue-700 mb-4">Pookies Tours and Travels</h1>  
+                <div class="relative">  
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/8e69370d-3b3f-4804-af65-b5a9007a2576.png" alt="Beautiful sunrise over Mandarmani beach with golden sand and gentle waves" class="w-full h-64 object-cover rounded-xl shadow-lg" />  
+                    <div class="absolute inset-0 bg-gradient-to-t from-blue-900/70 to-transparent rounded-xl"></div>  
+                    <h2 class="absolute bottom-6 left-6 text-3xl font-bold text-white">Mandarmani Beach Trip</h2>  
+                </div>  
+            </div>  <!-- Departure Information -->  
+        <div class="mb-16 p-6 bg-white rounded-xl shadow-md">  
+            <h3 class="text-2xl font-semibold text-blue-800 mb-4 flex items-center">  
+                <span class="w-8 h-8 rounded-full bg-blue-600 text-white text-center leading-8 mr-3">1</span>  
+                Departure Information  
+            </h3>  
+              
+            <div class="grid md:grid-cols-2 gap-4">  
+                <div class="bg-gray-50 p-4 rounded-lg">  
+                    <div class="font-medium text-gray-700 mb-2">Pickup Points</div>  
+                    <div class="flex items-center mb-1">  
+                        <div class="w-3 h-3 rounded-full bg-blue-500 mr-2"></div>  
+                        <span>DLF: <span class="font-semibold">9:30 PM</span></span>  
+                    </div>  
+                    <div class="flex items-center">  
+                        <div class="w-3 h-3 rounded-full bg-blue-500 mr-2"></div>  
+                        <span>Esplanade: <span class="font-semibold">12:00 AM</span></span>  
+                    </div>  
+                </div>  
+                  
+                <div class="bg-gray-50 p-4 rounded-lg">  
+                    <div class="font-medium text-gray-700 mb-2">Route Points</div>  
+                    <div class="flex items-center mb-1">  
+                        <div class="w-3 h-3 rounded-full bg-orange-500 mr-2"></div>  
+                        <span>Kolaghat (Tea/Coffee Break)</span>  
+                    </div>  
+                    <div class="flex items-center">  
+                        <div class="w-3 h-3 rounded-full bg-orange-500 mr-2"></div>  
+                        <span>Chawlkola (4:00 AM)</span>  
+                    </div>  
+                </div>  
+            </div>  
+              
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/018a0da9-3eb4-43e4-adb1-029cbc19236d.png" alt="Map showing route from Kolkata to Mandarmani via Kolaghat with marked stops" class="w-full mt-6 rounded-lg" />  
+        </div>  
+          
+        <!-- Day 1 Activities -->  
+        <div class="mb-16">  
+            <h3 class="text-2xl font-semibold text-blue-800 mb-6 flex items-center">  
+                <span class="w-8 h-8 rounded-full bg-blue-600 text-white text-center leading-8 mr-3">2</span>  
+                Day 1 - Beach Arrival & Activities  
+            </h3>  
+              
+            <div class="relative timeline pl-8 space-y-8">  
+                <!-- Beach Arrival -->  
+                <div class="itinerary-card relative bg-white p-6 rounded-xl shadow-md">  
+                    <div class="time-badge absolute -left-8 top-6 w-16 text-white text-xs text-center py-1 rounded-full">5:00 AM</div>  
+                    <h4 class="text-xl font-semibold text-gray-800 mb-3">Beach Arrival</h4>  
+                    <div class="flex flex-wrap gap-3 mb-4">  
+                        <span class="flex items-center px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">  
+                            <span class="activity-icon w-3 h-3 rounded-full mr-2"></span>  
+                            Sunrise at beach  
+                        </span>  
+                        <span class="flex items-center px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">  
+                            <span class="activity-icon w-3 h-3 rounded-full mr-2"></span>  
+                            Photography  
+                        </span>  
+                    </div>  
+                    <p class="text-gray-600">Enjoy the sunrise and take photos on the beautiful Mandarmani beach.</p>  
+                </div>  
+                  
+                <!-- Morning Refreshment -->  
+                <div class="itinerary-card relative bg-white p-6 rounded-xl shadow-md">  
+                    <div class="time-badge absolute -left-8 top-6 w-16 text-white text-xs text-center py-1 rounded-full">6:00 AM</div>  
+                    <h4 class="text-xl font-semibold text-gray-800 mb-3">Morning Refreshment</h4>  
+                    <div class="flex items-center mb-2 text-gray-700">  
+                        <span class="refreshment-icon w-4 h-4 rounded-full mr-2"></span>  
+                        Lemon tea + biscuit for everyone  
+                    </div>  
+                </div>  
+                  
+                <!-- Breakfast -->  
+                <div class="itinerary-card relative bg-white p-6 rounded-xl shadow-md">  
+                    <div class="time-badge absolute -left-8 top-6 w-16 text-white text-xs text-center py-1 rounded-full">7:00 AM</div>  
+                    <h4 class="text-xl font-semibold text-gray-800 mb-3">Breakfast</h4>  
+                    <div class="flex items-center mb-2 text-gray-700">  
+                        <span class="meal-icon w-4 h-4 rounded-full mr-2"></span>  
+                        Puri/Egg toast with one sweet  
+                    </div>  
+                    <p class="text-gray-600 mb-3">Check-in at hotel and keep bags at reception.</p>  
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/dd25ba2e-7909-48de-b04b-31745d0b38c2.png" alt="Hotel breakfast buffet with hot puri, egg toast and Indian sweets arranged neatly" class="w-full rounded-lg" />  
+                </div>  
+                  
+                <!-- Beach Activities -->  
+                <div class="itinerary-card relative bg-white p-6 rounded-xl shadow-md">  
+                    <div class="time-badge absolute -left-8 top-6 w-16 text-white text-xs text-center py-1 rounded-full">7:30-10 AM</div>  
+                    <h4 class="text-xl font-semibold text-gray-800 mb-3">Beach Activities</h4>  
+                    <div class="flex flex-wrap gap-3 mb-4">  
+                        <span class="flex items-center px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">  
+                            <span class="activity-icon w-3 h-3 rounded-full mr-2"></span>  
+                            Photography  
+                        </span>  
+                        <span class="flex items-center px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">  
+                            <span class="activity-icon w-3 h-3 rounded-full mr-2"></span>  
+                            Leisure Time  
+                        </span>  
+                    </div>  
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/b8a55de0-949c-4478-9f7a-f913d4aa98cb.png" alt="Group of friends enjoying at Mandarmani beach, playing in waves and taking photos" class="w-full rounded-lg" />  
+                </div>  
+                  
+                <!-- Mid-Morning Refreshment -->  
+                <div class="itinerary-card relative bg-white p-6 rounded-xl shadow-md">  
+                    <div class="time-badge absolute -left-8 top-6 w-16 text-white text-xs text-center py-1 rounded-full">10:00 AM</div>  
+                    <h4 class="text-xl font-semibold text-gray-800 mb-3">Refreshment Break</h4>  
+                    <div class="flex items-center mb-2 text-gray-700">  
+                        <span class="refreshment-icon w-4 h-4 rounded-full mr-2"></span>  
+                        Tea served for everyone  
+                    </div>  
+                </div>  
+                  
+                <!-- Hotel Time -->  
+                <div class="itinerary-card relative bg-white p-6 rounded-xl shadow-md">  
+                    <div class="time-badge absolute -left-8 top-6 w-16 text-white text-xs text-center py-1 rounded-full">11:00 AM</div>  
+                    <h4 class="text-xl font-semibold text-gray-800 mb-3">Hotel Time</h4>  
+                    <p class="text-gray-600 mb-3">Return to hotel, freshen up and get ready.</p>  
+                    <div class="bg-amber-50 p-4 rounded-lg mb-3">  
+                        <div class="font-medium text-gray-700 mb-1">Drinks Served at 11:45 AM</div>  
+                        <div class="grid grid-cols-3 gap-2 text-sm">  
+                            <span class="bg-white px-2 py-1 rounded">Bro Code</span>  
+                            <span class="bg-white px-2 py-1 rounded">Beer</span>  
+                            <span class="bg-white px-2 py-1 rounded">Coolberg</span>  
+                            <span class="bg-white px-2 py-1 rounded">Coca Cola</span>  
+                        </div>  
+                    </div>  
+                </div>  
+                  
+                <!-- Lunch -->  
+                <div class="itinerary-card relative bg-white p-6 rounded-xl shadow-md">  
+                    <div class="time-badge absolute -left-8 top-6 w-16 text-white text-xs text-center py-1 rounded-full">3:00 PM</div>  
+                    <h4 class="text-xl font-semibold text-gray-800 mb-3">Afternoon Lunch</h4>  
+                    <p class="text-gray-600 mb-3">Will be provided from outside restaurant.</p>  
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/0b01f585-5a90-43e6-9345-53afae2e9b48.png" alt="Delicious spread of Bengali cuisine including fish curry, rice, vegetables and sweets at a restaurant" class="w-full rounded-lg" />  
+                </div>  
+                  
+                <!-- Evening Activities -->  
+                <div class="itinerary-card relative bg-white p-6 rounded-xl shadow-md">  
+                    <div class="time-badge absolute -left-8 top-6 w-16 text-white text-xs text-center py-1 rounded-full">5:15 PM</div>  
+                    <h4 class="text-xl font-semibold text-gray-800 mb-3">Evening Relaxation</h4>  
+                    <div class="flex items-center mb-2 text-gray-700">  
+                        <span class="refreshment-icon w-4 h-4 rounded-full mr-2"></span>  
+                        Beer/Coolberg/Coca Cola served  
+                    </div>  
+                    <p class="text-gray-600 mb-3">Option to go to beach for relaxation or sleep.</p>  
+                </div>  
+                  
+                <!-- Evening Snacks -->  
+                <div class="itinerary-card relative bg-white p-6 rounded-xl shadow-md">  
+                    <div class="time-badge absolute -left-8 top-6 w-16 text-white text-xs text-center py-1 rounded-full">6:30 PM</div>  
+                    <h4 class="text-xl font-semibold text-gray-800 mb-3">Evening Snacks</h4>  
+                    <p class="text-gray-600">Served with tea.</p>  
+                </div>  
+                  
+                <!-- Pre-Dinner Drinks -->  
+                <div class="itinerary-card relative bg-white p-6 rounded-xl shadow-md">  
+                    <div class="time-badge absolute -left-8 top-6 w-16 text-white text-xs text-center py-1 rounded-full">7:15 PM</div>  
+                    <h4 class="text-xl font-semibold text-gray-800 mb-3">Pre-Dinner Drinks</h4>  
+                    <div class="flex items-center mb-2 text-gray-700">  
+                        <span class="refreshment-icon w-4 h-4 rounded-full mr-2"></span>  
+                        Whiskey/Coolberg/Coca Cola served  
+                    </div>  
+                </div>  
+                  
+                <!-- Swimming Time -->  
+                <div class="itinerary-card relative bg-white p-6 rounded-xl shadow-md">  
+                    <div class="time-badge absolute -left-8 top-6 w-16 text-white text-xs text-center py-1 rounded-full">8:00-10:00 PM</div>  
+                    <h4 class="text-xl font-semibold text-gray-800 mb-3">Pool Time</h4>  
+                    <p class="text-gray-600">Enjoy swimming at the hotel pool.</p>  
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/39ddf9ee-daec-46d2-b874-0d79e23ae579.png" alt="Hotel swimming pool at night with blue water and colorful lights, people enjoying" class="w-full rounded-lg" />  
+                </div>  
+                  
+                <!-- Dinner -->  
+                <div class="itinerary-card relative bg-white p-6 rounded-xl shadow-md">  
+                    <div class="time-badge absolute -left-8 top-6 w-16 text-white text-xs text-center py-1 rounded-full">10:30 PM</div>  
+                    <h4 class="text-xl font-semibold text-gray-800 mb-3">Dinner</h4>  
+                    <p class="text-gray-600 mb-3">Served with drinks (Whiskey/Beer/Coolberg/Coca Cola).</p>  
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/3f45c268-a1f7-4805-8c2c-f04be41f1c9d.png" alt="Multi-course dinner spread at hotel with rice, curries, breads, meat dishes and desserts" class="w-full rounded-lg" />  
+                </div>  
+            </div>  
+        </div>  
+          
+        <!-- Day 2 Activities -->  
+        <div class="mb-16">  
+            <h3 class="text-2xl font-semibold text-blue-800 mb-6 flex items-center">  
+                <span class="w-8 h-8 rounded-full bg-blue-600 text-white text-center leading-8 mr-3">3</span>  
+                Day 2 - Return Journey  
+            </h3>  
+              
+            <div class="relative timeline pl-8 space-y-8">  
+                <!-- Breakfast -->  
+                <div class="itinerary-card relative bg-white p-6 rounded-xl shadow-md">  
+                    <div class="time-badge absolute -left-8 top-6 w-16 text-white text-xs text-center py-1 rounded-full">8:00 AM</div>  
+                    <h4 class="text-xl font-semibold text-gray-800 mb-3">Breakfast</h4>  
+                    <p class="text-gray-600">Provided by the hotel.</p>  
+                </div>  
+                  
+                <!-- Checkout -->  
+                <div class="itinerary-card relative bg-white p-6 rounded-xl shadow-md">  
+                    <div class="time-badge absolute -left-8 top-6 w-16 text-white text-xs text-center py-1 rounded-full">10:00 AM</div>  
+                    <h4 class="text-xl font-semibold text-gray-800 mb-3">Checkout</h4>  
+                    <p class="text-gray-600">Time to say goodbye to Mandarmani.</p>  
+                </div>  
+                  
+                <!-- Departure Tea -->  
+                <div class="itinerary-card relative bg-white p-6 rounded-xl shadow-md">  
+                    <div class="time-badge absolute -left-8 top-6 w-16 text-white text-xs text-center py-1 rounded-full">11:30 AM</div>  
+                    <h4 class="text-xl font-semibold text-gray-800 mb-3">Tea Break</h4>  
+                    <p class="text-gray-600">Tea will be provided before heading to Chawlkola.</p>  
+                </div>  
+                  
+                <!-- Return Journey -->  
+                <div class="itinerary-card relative bg-white p-6 rounded-xl shadow-md">  
+                    <div class="time-badge absolute -left-8 top-6 w-16 text-white text-xs text-center py-1 rounded-full">Route</div>  
+                    <h4 class="text-xl font-semibold text-gray-800 mb-3">Return Journey</h4>  
+                    <div class="text-gray-600 space-y-2">  
+                        <p>→ Travel to Chawlkola (1 hour buffer)</p>  
+                        <p>→ Next halt with tea break</p>  
+                        <p>→ Return to Esplanade</p>  
+                        <p class="pt-2 font-medium">Trip concludes - Thank you!</p>  
+                    </div>  
+                </div>  
+            </div>  
+        </div>  
+          
+        <!-- Summary Card -->  
+        <div class="bg-white p-6 rounded-xl shadow-md border-l-4 border-blue-500">  
+            <h3 class="text-xl font-semibold text-blue-800 mb-4">Trip Summary</h3>  
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">  
+                <div class="bg-blue-50 p-4 rounded-lg">  
+                    <div class="font-semibold text-blue-800 mb-2">Refreshments Included</div>  
+                    <ul class="text-sm space-y-1">  
+                        <li>5 Tea/Coffee breaks</li>  
+                        <li>3 alcoholic beverage rounds</li>  
+                        <li>2 soft drink rounds</li>  
+                        <li>All meals covered</li>  
+                    </ul>  
+                </div>  
+                <div class="bg-amber-50 p-4 rounded-lg">  
+                    <div class="font-semibold text-amber-800 mb-2">Key Activities</div>  
+                    <ul class="text-sm space-y-1">  
+                        <li>Sunrise at beach</li>  
+                        <li>Beach leisure time</li>  
+                        <li>Hotel swimming pool</li>  
+                        <li>Sightseeing</li>  
+                    </ul>  
+                </div>  
+                <div class="bg-green-50 p-4 rounded-lg">  
+                    <div class="font-semibold text-green-800 mb-2">Travel Comforts</div>  
+                    <ul class="text-sm space-y-1">  
+                        <li>Toto booking from fund</li>  
+                        <li>Regular refreshments</li>  
+                        <li>Hotel stay included</li>  
+                        <li>Meals provided</li>  
+                    </ul>  
+                </div>  
+            </div>  
+              
+            <div class="mt-6 text-center pt-4 border-t border-gray-200">  
+                <p class="text-blue-600 font-medium">Pookies Tours and Travels - Creating unforgettable memories!</p>  
+            </div>  
+        </div>  
+    </div>  
+</div>
+
+</body>  
+</html>
